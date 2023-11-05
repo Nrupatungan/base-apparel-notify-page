@@ -21,11 +21,6 @@ module.exports = {
       fontFamily: {
         Josefin: "'Josefin Sans', sans-serif"
       },
-
-      backgroundImage: {
-        'bg-pattern': "url('/assets/images/bg-pattern-desktop.svg')",
-        'error-icon': "url('/assets/images/icon-error.svg')",
-      },
       
     },
   },

@@ -601,12 +601,20 @@ video {
   border-color: rgb(34 197 94 / var(--tw-border-opacity));
 }
 
-.bg-\[url\(\'\/assets\/images\/icon-error\.svg\'\)\] {
-  background-image: url('/assets/images/icon-error.svg');
+.bg-\[url\(\'\.\/assets\/images\/icon-error\.svg\'\)\] {
+  background-image: url('./assets/images/icon-error.svg');
 }
 
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.bg-\[url\(\'\/assets\/images\/icon-error\.svg\'\)\] {
+  background-image: url('/assets/images/icon-error.svg');
+}
+
+.bg-\[url\(\'assets\/images\/icon-error\.svg\'\)\] {
+  background-image: url('assets/images/icon-error.svg');
 }
 
 .from-grd_2_from {
@@ -658,10 +666,6 @@ video {
 
 .pe-16 {
   padding-inline-end: 4rem;
-}
-
-.pe-20 {
-  padding-inline-end: 5rem;
 }
 
 .pe-28 {
@@ -862,8 +866,16 @@ video {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
+  .md\:bg-\[url\(\'\.\/assets\/images\/bg-pattern-desktop\.svg\'\)\] {
+    background-image: url('./assets/images/bg-pattern-desktop.svg');
+  }
+
   .md\:bg-\[url\(\'\/assets\/images\/bg-pattern-desktop\.svg\'\)\] {
     background-image: url('/assets/images/bg-pattern-desktop.svg');
+  }
+
+  .md\:bg-\[url\(\'assets\/images\/bg-pattern-desktop\.svg\'\)\] {
+    background-image: url('assets/images/bg-pattern-desktop.svg');
   }
 
   .md\:bg-\[center_right_5rem\] {
