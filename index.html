@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png"/>
+
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/dist/output.css">
+
+    <script src="./src/app/js/script.js" defer></script>
+  </head>
+  <body class="font-Josefin min-h-screen md:bg-[url('/assets/images/bg-pattern-desktop.svg')] md:bg-left-top">
+    <div class="wrapper md:grid md:grid-cols-4 min-[1260px]:grid-cols-5  gap-5 md:h-screen">
+      <div class="content-wrapper md:col-span-2 min-[1260px]:col-span-3 md:ps-10 md:pt-16 md:h-screen lg:ps-24 min-[1200px]:ps-36">
+        <header>
+          <div class="logo-wrapper ps-7 py-7 min-[500px]:ps-9 min-[500px]:py-7 md:p-0 md:mb-24 min-[1200px]:mb-28">
+            <img src="./assets/images/logo.svg" alt="Base Apparel's logo" class="h-5 min-[500px]:h-7">
+          </div>
+          <img src="./assets/images/hero-mobile.jpg" alt="a woman posing for a picture" class="w-full md:hidden">
+        </header>
+
+        <main class="text-center px-7 py-14 min-[550px]:ps-14 min-[650px]:py-28 md:p-0">
+          <h1 class="text-4xl text-Dark_Grayish_Red uppercase tracking-[.35em] font-semibold mb-3 min-[500px]:text-left min-[500px]:mb-6 min-[790px]:max-w-[300px] min-[1200px]:text-5xl"><span class="font-light text-Desaturated_Red min-[500px]:block min-[500px]:mb-1">We're</span> coming soon</h1>
+          <p class="text-sm text-Desaturated_Red mb-7 min-[500px]:text-left min-[500px]:max-w-[497px] min-[500px]:leading-6 md:max-w-[390px] min-[1200px]:text-base min-[1200px]:max-w-[430px]">Hello fellow shoppers! We're currently building our new
+            fashion store. Add your email below to stay up-to-date with announcements
+            and our launch deals.</p>
+          <div class="input-section relative min-[500px]:max-w-[437px] md:max-w-[380px] min-[900px]:max-w-[390px] min-[1200px]:max-w-[430px]">
+            <input type="text" placeholder="Email Address" class="w-full text-sm border-2 outline-none border-Desaturated_Red rounded-full py-3 ps-4 pe-20">
+            <button class="width-full bg-gradient-to-r from-grd_2_from to-grd_2_to px-6 h-[47.07px] rounded-full absolute -right-0 hover:bg-gradient-to-r hover:from-grd_2_from hover:to-grd_2_from active:scale-110 md:px-8 shadow-2xl"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="20"><path fill="none" stroke="#FFF" stroke-width="2" d="M1 1l8.836 8.836L1 18.671"/></svg></button>
+          </div>
+        </main>
+      </div>
+      <img src="./assets/images/hero-desktop.jpg" alt="a woman posing for a picture" class="hidden md:block md:col-span-2 md:h-screen">
+    </div>
+  </body>
+</html>
